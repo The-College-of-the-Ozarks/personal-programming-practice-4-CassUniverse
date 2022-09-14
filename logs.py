@@ -11,3 +11,4 @@ x = input("Input the value for x: ")
 x = float(x)
 
 print("g(" + str(x) + ") = " + str(g(x)))
+if 
