@@ -10,4 +10,7 @@ def g(x):
 x = input("Input the value for x: ")
 x = float(x)
 
-print("g(" + str(x) + ") = " + str(g(x)))
+if -10 < x < 7:
+    print("g(" + str(x) + ") = " + str(g(x)))
+else:
+    print("error: value not found")
